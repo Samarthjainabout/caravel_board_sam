@@ -965,8 +965,8 @@ Disassembly of section .text:
 10000e34:	260007b7          	lui	a5,0x26000
 10000e38:	01078793          	add	a5,a5,16 # 26000010 <_fdata_rom+0x15ffed10>
 10000e3c:	0007a023          	sw	zero,0(a5)
-10000e40:	007a17b7          	lui	a5,0x7a1
-10000e44:	20078513          	add	a0,a5,512 # 7a1200 <_fstack+0x7a0e00>
+10000e40:	2faf17b7          	lui	a5,0x2faf1
+10000e44:	80078513          	add	a0,a5,-2048 # 2faf0800 <_fdata_rom+0x1faef500>
 10000e48:	e7dff0ef          	jal	10000cc4 <delay>
 10000e4c:	f00037b7          	lui	a5,0xf0003
 10000e50:	81478793          	add	a5,a5,-2028 # f0002814 <_fdata_rom+0xe0001514>
@@ -979,8 +979,8 @@ Disassembly of section .text:
 10000e6c:	00c78793          	add	a5,a5,12 # 2600000c <_fdata_rom+0x15ffed0c>
 10000e70:	fff00713          	li	a4,-1
 10000e74:	00e7a023          	sw	a4,0(a5)
-10000e78:	007a17b7          	lui	a5,0x7a1
-10000e7c:	20078513          	add	a0,a5,512 # 7a1200 <_fstack+0x7a0e00>
+10000e78:	2faf17b7          	lui	a5,0x2faf1
+10000e7c:	80078513          	add	a0,a5,-2048 # 2faf0800 <_fdata_rom+0x1faef500>
 10000e80:	e45ff0ef          	jal	10000cc4 <delay>
 10000e84:	f95ff06f          	j	10000e18 <main+0xd4>
 	...
